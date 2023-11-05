@@ -1,0 +1,14 @@
+[package]
+name = "pi_est"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.29"
+futures-cpupool = "0.1.8"
+num_cpus = "1.16.0"
+rand = "0.8.5"
+rayon = "1.8.0"
+time = "0.3.30"
